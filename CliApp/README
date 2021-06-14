@@ -2,3 +2,28 @@
 2 - Get into the directory where you have the random.sh script
 3 - Change execution permission: chmod +x random.sh
 4 - Finally execute the script: ./random.sh
+
+OUTPUT EXAMPLE
+
+[isilvera@computer CliApp]$ ./random.sh 
+3
+10
+6
+7
+9
+5
+8
+1
+4
+2
+[isilvera@computer CliApp]$ ./random.sh 
+4
+7
+6
+3
+10
+2
+5
+8
+1
+9
