@@ -1,0 +1,4 @@
+1 - Open a terminal based on bash or shel
+2 - Get into the directory where you have the random.sh script
+3 - Change execution permission: chmod +x random.sh
+4 - Finally execute the script: ./random.sh

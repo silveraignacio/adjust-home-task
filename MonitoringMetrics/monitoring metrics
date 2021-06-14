@@ -1,0 +1,5 @@
+For those kinds of servers, is necessary to take care of all resources. CPU is very important in SSL operations due to cryptographic needs, although also memory and network traffic are important for proxy servers that receive so many requests per second. Disk space is the last thing that I will take a look at, because 2TB is a lot of space available, and if the proxies' logs are configured correctly, it will be enough.
+
+I will use some monitoring tool like Zabbix or Nagios, that can give me a fast view of how the system is going on, and get a history usage of each resource, to have an average and have control of what is going on at a particular moment, and how can we try to improve the performance when the server is not responsive at all if those kinds of issues exist.
+
+You have to consider that maybe you will need a couple of days to get a "normal" behavior or to get a baseline of how the server will work with that load. When you got that, you can get a better vision of how to improve monitoring and of course, how to improve server performance.
